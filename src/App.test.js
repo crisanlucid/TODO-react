@@ -36,6 +36,6 @@ describe('Todo', () => {
     fireEvent.click(getByText('Complete'));
     const elem = getByTestId('item');
     // expect(elem.getAttribute('style')).toBe('text-decoration: line-through;');
-    console.log(elem.innerHTML);
+    // console.log(elem.innerHTML);
   });
 });

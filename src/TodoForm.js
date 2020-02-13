@@ -14,6 +14,7 @@ const TodoForm = ({addTodo}) => {
       <input
         type='text'
         className='input'
+        data-testid='input'
         value={value}
         onChange={e => setValue(e.target.value)}
       />
